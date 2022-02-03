@@ -1,1 +1,1 @@
-# Akshay_DATA606
+# UMBC Data Science Capstone Project
