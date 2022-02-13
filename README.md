@@ -6,7 +6,9 @@ There have been different phases of the covid-19 pandemic such as rise of delta 
 ## Dataset
 Dataset has been obtained from 
 https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html
+
 CORD-19 is a corpus of academic papers about COVID-19 and related coronavirus research. It's curated and maintained by the Semantic Scholar team at the Allen Institute for AI to support text mining and NLP research.
+
 CORD-19 is released weekly. Each version of the corpus is tagged with a date stamp (e.g., 2020-02-07). Releases looks like:
 ![image](https://user-images.githubusercontent.com/95871147/153780062-40e8a9e4-e564-4055-94aa-4e492366a762.png)
 
