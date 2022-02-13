@@ -15,8 +15,11 @@ CORD-19 is released weekly. Each version of the corpus is tagged with a date sta
 
  
 First release: 020-03-13
+
 Latest release: 2022-02-07
+
 Size of the dataset: 15 GB
+
 The files in each version are:
 
 •	changelog: A text file summarizing changes between this and the previous version.
@@ -73,10 +76,14 @@ Metadata.csv file has the following columns:
 Unit of Analysis here are the articles. No of observations are no articles which are around 338,451.
 ## Models
 I will be using NLP to preprocess the data and create corpus of articles.
+
 Latent Dirichlet Allocation (LDA) will be used for topic modelling as a part of Exploratory Data analysis (EDA). By using LDA for topic modelling I will be able to learn more about the topic to which article is more related to. For example, if the article is related more to politics, economy etc. One of the advantages of using LDA as compared to other models is that one does not need to specify topics in advance, topics will be inferred without prior input. Finally, pyLDAvis will be used to visualize the LDA results. pyLDAvis is a python library for interactive topic model visualization.
 
-Deep learning techniques will be used to train models. I am considering T5, BERT and GPT-2 models for training purpose using training dataset for summarization. Depending on the trials and results, one of the above three models will be finalized. To evaluate the performance of the models I will be using Recall-Oriented Understudy for Gisting Evaluation (ROUGE). ROUGE is used measure the accuracy of language-based sequence when dealing with language summarization.   
+
+Deep learning techniques will be used to train models. I am considering T5, BERT and GPT-2 models for training purpose using training dataset for summarization. Depending on the trials and results, one of the above three models will be finalized. To evaluate the performance of the models I will be using Recall-Oriented Understudy for Gisting Evaluation (ROUGE). ROUGE is used measure the accuracy of language-based sequence when dealing with language summarization. 
+
 For sentiment analysis, I will make use of NLTK library and use VADER for sentiment analysis. 
+
 As an ambitious goal I intend to use Streamlit to provide a UI for the project.
 ## Intended Outcome
 Users will be able to get summarization of any given covid-19 related article and the analysis of the sentiment of that article. 
