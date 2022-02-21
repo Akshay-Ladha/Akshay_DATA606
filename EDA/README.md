@@ -1,3 +1,5 @@
+# EDA
+
 In this section, we perform Exploratory Data Analysis on our dataset.
 
 EDA process includes: 
