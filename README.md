@@ -88,13 +88,29 @@ I will be using NLP to preprocess the data and create corpus of articles.
 Latent Dirichlet Allocation (LDA) will be used for topic modelling as a part of Exploratory Data analysis (EDA). By using LDA for topic modelling I will be able to learn more about the topic to which article is more related to. For example, if the article is related more to politics, economy etc. One of the advantages of using LDA as compared to other models is that one does not need to specify topics in advance, topics will be inferred without prior input. Finally, pyLDAvis will be used to visualize the LDA results. pyLDAvis is a python library for interactive topic model visualization.
 
 
-Deep learning techniques will be used to train models. I am considering T5, BERT and GPT-2 models for training purpose using training dataset for summarization. Depending on the trials and results, one of the above three models will be finalized. To evaluate the performance of the models I will be using Recall-Oriented Understudy for Gisting Evaluation (ROUGE). ROUGE is used measure the accuracy of language-based sequence when dealing with language summarization. 
+Deep learning techniques will be used to train models. I am considering T5 model for training purpose using training dataset for summarization.  To evaluate the performance of the models I will be using Recall-Oriented Understudy for Gisting Evaluation (ROUGE). ROUGE is used measure the accuracy of language-based sequence when dealing with language summarization. 
 
-For sentiment analysis, I will make use of NLTK library and use VADER for sentiment analysis. 
+For Classification process I will be using K-means and t-SNE alongwith PCA for dimensionality reduction 
 
-As an ambitious goal I intend to use Streamlit to provide a UI for the project.
-## Intended Outcome
-Users will be able to get summarization of any given covid-19 related article and the analysis of the sentiment of that article. 
+
+## Outcome
+SUMMARIZATION---
+
+Snapshot of Full Article
+
+
+![fulltext_ex_1](https://user-images.githubusercontent.com/95871147/169724048-d40e0d78-7fc8-486d-ad77-08ff805eb185.png)
+
+
+Model Summary
+
+![summary_ex_1](https://user-images.githubusercontent.com/95871147/169724060-9bdafce8-b229-4f1c-8a71-f875cc636324.png)
+
+CLASSIFICATION--
+
+![tsne with KMEANS](https://user-images.githubusercontent.com/95871147/169724080-4ed146a7-a7b8-422d-a0ab-5db28f5354e7.png)
+
+
 ## References
 1) https://github.com/allenai/cord19
 2) https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html
