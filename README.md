@@ -3,6 +3,15 @@
 Since COVID-19 started to spread in March 2020, it has become an unavoidable topic. The pandemic has changed the way of the world. There are lot of grey areas that needs to be touched upon to understand the impact of pandemic. Previously I have done projects related to Covid-19 tweets sentiment analysis and finding a correlation between Covid-19 and Baltimore crime data. I wish to continue working on a project that is related to the pandemic and dig deeper into the topic of pandemic and the impact it has on the world.
 ## Why is this issue important?
 There have been different phases of the covid-19 pandemic such as rise of delta variant, vaccine booster, emergence of Omicron variant etc. Each phase had different impact on people. As such, the sentiment of people towards pandemic keeps changing. Since the beginning of pandemic lot of research articles have been published and it is hard for people for common people to stay up to date with the latest development in Covid-19 pandemic. Reading so many long articles is time consuming and not practical. Through this project I hope to provide a tool that will summarize the articles in minimal words and analyze the sentiments in the articles and help common people to stay up to date with development of the pandemic. 
+
+## Research Questions
+
+1)  Can we get a Summary of the article without omitting important information?
+
+
+2)  Can clustering similar research articles together simplify the search for related publications?
+
+
 ## Dataset
 Dataset has been obtained from 
 https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html
