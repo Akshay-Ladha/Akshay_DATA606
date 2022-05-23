@@ -37,7 +37,10 @@ LDA -- using pyLDAvis library I have prepared an interactive plot where in we ca
 
 On the left side, the area of each circle represents the importance of the topic relative to the corpus. As there are 10 topics, we have 10 circles.
 •	The distance between the center of the circles indicates the similarity between the topics.
+
 •	On the right side, the histogram of each topic shows the top 30 relevant words.
+
+
 
 Following is a snapshot of the interactive plot.
 
