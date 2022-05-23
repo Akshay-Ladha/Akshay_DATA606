@@ -76,6 +76,12 @@ Metadata.csv file has the following columns:
 Unit of Analysis here are the articles. No of observations are no articles which are around 338,451.
 
 ## EDA Results
+
+You can find EDA results on the following link
+
+https://github.com/Akshay-Ladha/Akshay_DATA606/blob/main/EDA/README.md
+
+
 ## Models
 I will be using NLP to preprocess the data and create corpus of articles.
 
